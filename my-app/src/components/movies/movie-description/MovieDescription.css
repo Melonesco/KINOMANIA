@@ -1,0 +1,60 @@
+.movie {
+  padding: 30px 0 80px 0;
+}
+
+.movie__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie__title div {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.movie__title div:first-child {
+  font-size: 31px;
+  line-height: 40px;
+}
+
+.movie__materials {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+.movie__materials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.movie__materials img {
+  width: 20px;
+  height: 20px;
+}
+
+.movie__materials p {
+  font-size: 20px;
+}
+
+.movie__content {
+  display: flex;
+  gap: 20px;
+}
+
+.movie__content span {
+  font-weight: lighter;
+}
+
+.movie__content-description {
+  margin-top: 20px;
+}
+
+.movie__content-trailer {
+  margin-top: 60px;
+}

@@ -1,0 +1,47 @@
+.movies {
+  padding: 30px 0 80px 0;
+}
+
+.movies__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.movies__content-title {
+  color: #000000;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.movies__content-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.movies__content-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #424242;
+  cursor: pointer;
+  border-radius: 10px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.movies__content-block:hover {
+  background-color: #c4140a;
+}
+
+.movies__content-block img {
+  width: 16px;
+  height: 16px;
+}
+
+.movies__content-block p {
+  color: #ffffff;
+}

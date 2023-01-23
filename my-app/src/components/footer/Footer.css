@@ -1,0 +1,19 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  background-color: #282828;
+  z-index: 30;
+}
+
+.footer__inner {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__inner div {
+  color: #a9977d;
+}

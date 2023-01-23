@@ -1,0 +1,18 @@
+.months__input-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.months__input-checkbox input {
+  width: 16px;
+  height: 16px;
+}
+
+.months__input-checkbox input[type="checkbox"] {
+  color: red;
+}
+
+.months__input-checkbox label {
+  font-size: 16px;
+}

@@ -1,0 +1,31 @@
+.news__description {
+  padding: 20px 0 80px 0;
+}
+
+.news__description-title {
+  color: #000000;
+  display: block;
+  font-size: 31px;
+  font-weight: bold;
+  line-height: 54px;
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+
+.news__description-block {
+  display: flex;
+  gap: 15px;
+}
+
+.news__description-img {
+  width: 300px;
+  min-width: 300px;
+}
+
+.news__description-line {
+  margin: 20px 0 10px 0;
+}
+
+.news__description-link {
+  font-weight: lighter;
+}

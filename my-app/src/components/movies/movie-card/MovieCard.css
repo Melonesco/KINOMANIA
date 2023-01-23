@@ -1,0 +1,11 @@
+.movies__card {
+  cursor: pointer;
+}
+
+.movies__card img {
+  width: 220px;
+}
+
+.movies__card-name {
+  text-transform: uppercase;
+}

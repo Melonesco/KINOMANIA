@@ -1,0 +1,25 @@
+.contests {
+  padding: 30px 0 80px 0;
+}
+
+.contests-title {
+  color: #000000;
+  display: block;
+  font-size: 31px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+
+.contests__blocks {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.contests__block img {
+  width: 315px;
+}

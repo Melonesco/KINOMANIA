@@ -1,0 +1,70 @@
+.movie__sorting {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.movie__sorting-select,
+.movie__sorting-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.movie__sorting-select p,
+.movie__sorting-search p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.movie__sorting-select select {
+  font-size: 18px;
+}
+
+.movie__sorting-search input {
+  width: 330px;
+  font-size: 16px;
+  padding: 3px 5px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.movie__sorting-checkbox {
+  margin-bottom: 20px;
+}
+
+.movie__sorting-checkbox p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.movie__sorting-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.movie__sorting-btn button {
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #424242;
+  color: #fff;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 6px 6px 6px 6px;
+  letter-spacing: 0;
+}
+
+.movie__sorting-btn button:hover {
+  background-color: #c4140a;
+}
+
+.movie__sorting-btn img {
+  width: 12px;
+  height: 12px;
+}
