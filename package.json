@@ -13,10 +13,10 @@
   },
   "scripts": {
     "server": "nodemon server.js",
-    "client": "cd client && npm run start",
+    "client": "cd my-app && npm run start",
     "dev": "concurrently --kill-others-on-fail \" npm run server \" \" npm run client \"",
-    "client-build": "cd client && npm run build",
-    "build-and-start": "npm run client-build && node server.js"
+    "client-build": "cd my-app && npm run build",
+    "build-and-start": "npm run my-app-build && node server.js"
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
